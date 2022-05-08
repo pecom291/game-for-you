@@ -8,3 +8,5 @@ On the website simply follow the button/link at the bottom that will bring you t
 On the next page click all the answers that apply to you and get the game ment for you!
 
 
+Directions (delete when done)
+ave a well documented README.md file highlighting your design process, inspiration and references, challenges you faced and next steps for the project if you had more time to complete it and create a second version.
