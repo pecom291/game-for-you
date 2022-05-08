@@ -1,5 +1,4 @@
-# game-for-you
-The Right Game For You!
+# The Right Game For You!
 Final Project Adv. Critical Comp.
 This is the layout for the website "The Right Game For You", this was made using HTML, CSS, and Javascript
 for the final project of this class.
