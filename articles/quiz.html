@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="the game for you quiz">
+        <title></title>
+		<link rel="stylesheet" href="../styles/quizoutline.css">
+    </head>
+    <body>
+
+    <main>
+
+    <!-- <p id="text">Hi <span id="name">_____</span>!<br>
+        Thank you for trying out the game quiz. Below you will find a series of questions that will help 
+        guide you into finding the perfect game for you. Enjoy! 
+    </p> -->
+
+    <br><br><br>
+
+    <div id="wrapper">
+        <h1>The Best Game For You</h1>
+
+        <p class="username" id="text">Hi <span id="name">_____</span>!<br>
+          Thank you for trying out the game quiz. Below you will find a series of questions that will help 
+          guide you into finding the perfect game for you. Enjoy! 
+      </p>
+        
+        <form id="quiz">
+          <!-- Question 1 -->
+          <h2>What game features are most important to you?</h2>
+          <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
+          <!-- The value is which answer the choice corresponds to. -->
+          <label><input type="radio" name="q1" value="c1">
+            Building, Survival, Gathering
+          </label><br />
+          <label><input type="radio" name="q1" value="c4">
+            Emotional Story, feeling connected to characters
+          </label><br />
+          <label><input type="radio" name="q1" value="c9">
+            Randomly generated levels with different weapons
+          </label><br />
+          <label><input type="radio" name="q1" value="c2">
+            Being the bad guy, possibly ending the world!
+          </label><br />
+      
+          <!-- Question 2 -->
+          <h2>What is your prefered ingame enviorment?</h2>
+          <!-- Here are the choices for the second question. Notice how each input tag has the same name (q2), but a different name than the previous question. -->
+          <label><input type="radio" name="q2" value="c3">
+            Uplighting colors and upbeat music
+          </label><br />
+          <label><input type="radio" name="q2" value="c5">
+            War areas and being in battlefields or castles
+          </label><br />
+          <label><input type="radio" name="q2" value="c1">
+            The middle absolutely no where and most likely lost
+          </label><br />
+          <label><input type="radio" name="q2" value="c6">
+            Foraging for gear in unknown territory and trying to get stronger and stronger
+          </label><br />
+          
+          <!-- Question 3 -->
+          <h2>Of the games below, what is the most interesting to you?</h2>
+          <!-- Choices for the third question -->
+          <label><input type="radio" name="q3" value="c1">
+            Minecraft, CastleMiner Z, Terreria
+          </label><br />
+          <label><input type="radio" name="q3" value="c6">
+            Horizon Zero Dawn, Breath of the Wild
+          </label><br />
+          <label><input type="radio" name="q3" value="c7">
+            Elden Ring, Dragon's Dogma Dark Arisen 
+          </label><br />
+          <label><input type="radio" name="q3" value="c9">
+            Hades, Slay the Spire
+          </label><br />
+          
+          <!-- Question 4 -->
+          <h2>What best describes your playstyle?</h2>
+          <!-- Choices for the fourth question -->
+          <label><input type="radio" name="q4" value="c2">
+            Killing absolutely everyone and everything in your path with little to no remorse
+          </label><br />
+          <label><input type="radio" name="q4" value="c7">
+            Exploring a vast open world and being able to do just about whatever you want, maybe fish
+          </label><br />
+          <label><input type="radio" name="q4" value="c5">
+            Shooting people from a distance or running in guns blazing
+          </label><br />
+          <label><input type="radio" name="q4" value="c1">
+            Working on your home base and cooking your own food
+          </label><br />
+
+          <!-- Question 5 -->
+          <h2>What new options are you willing to explore?</h2>
+          <!-- Choices for the fourth question -->
+          <label><input type="radio" name="q5" value="c3">
+            Slimerancher, Overcooked
+          </label><br />
+          <label><input type="radio" name="q5" value="c9">
+            Binding is Isaac, Risk of Rain 1&2
+          </label><br />
+          <label><input type="radio" name="q5" value="c4">
+            The Last of Us, Red Dead Redemption
+          </label><br />
+          <label><input type="radio" name="q5" value="c4">
+            Hollow Knight, Journey
+          </label><br />
+
+          <!-- Question 6 -->
+          <h2>Do you want your game to have solo, multiplier, pvp, pve, or both?</h2>
+          <!-- Choices for the fourth question -->
+          <label><input type="radio" name="q6" value="c3">
+            Solo
+          </label><br />
+          <label><input type="radio" name="q6" value="c6">
+            CO-OP
+          </label><br />
+          <label><input type="radio" name="q6" value="c9">
+            PVP
+          </label><br />
+          <label><input type="radio" name="q6" value="c4">
+            CO-OP/PVP
+          </label><br />
+
+          <!-- Question 7 -->
+          <h2>Which of these games would you NOT want to play?</h2>
+          <!-- Choices for the fourth question -->
+          <label><input type="radio" name="q7" value="c7">
+            Shooter
+          </label><br />
+          <label><input type="radio" name="q7" value="c8">
+            Action Adventure
+          </label><br />
+          <label><input type="radio" name="q7" value="c5">
+            Survival
+          </label><br />
+          <label><input type="radio" name="q7" value="c6">
+            Openworld
+          </label><br />
+
+          <!-- Question 8 -->
+          <h2>When you play a game what difficulty do you play on?</h2>
+          <!-- Choices for the fourth question -->
+          <label><input type="radio" name="q8" value="c5">
+            Medium
+          </label><br />
+          <label><input type="radio" name="q8" value="c8">
+            Easy
+          </label><br />
+          <label><input type="radio" name="q8" value="c4">
+            Cake walk
+          </label><br />
+          <label><input type="radio" name="q8" value="c2">
+            Hard
+          </label><br />
+
+          <!-- Question 9 -->
+          <h2>Whats the REAL reason you chose to take this quiz?</h2>
+          <!-- Choices for the fourth question -->
+          <label><input type="radio" name="q9" value="c3">
+            Because I wanted to!
+          </label><br />
+          <label><input type="radio" name="q9" value="c7">
+            Because I had to and theres not a lot else to do
+          </label><br />
+          <label><input type="radio" name="q9" value="c8">
+            Looking for something quick to play
+          </label><br />
+          <label><input type="radio" name="q9" value="c2">
+            I'm just Really Really REALLY trying to kick some babies (not really but you're terrible if you pick this)
+          </label><br />
+
+          <button type="button" id="submit" onclick="tabulateAnswers()">Submit Your Answers</button>
+        <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
+        </form>
+        
+        
+        <div id="answer">Your result will show up here!</div>
+      </div> 
+
+    <script src="../two.js"></script>
+    </main>
+
+    <footer></footer>
+
+    </body>
+    </html>
