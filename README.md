@@ -26,6 +26,6 @@ the questions and it was done!
 Challenges:
 I struggled with the quiz/questionnair portion of this for hours. 
 
-
-Directions (delete when done)
-Have a well documented README.md file highlighting your design process, inspiration and references, challenges you faced and next steps for the project if you had more time to complete it and create a second version.
+Plans for this: 
+Some ideas I want to continue to add to this are the links to the games, some further detailed descriptions of some of the questions
+and answers. Fix the pictures that are supposed to be in the game and apparently fix the last option.
