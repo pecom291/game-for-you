@@ -64,28 +64,28 @@ function tabulateAnswers() {
     // Display answer corresponding to that choice
     var answerbox = document.getElementById('answer');
     if (c1score == maxscore) { // If user chooses the first choice the most, this outcome will be displayed.
-      answerbox.innerHTML = "Survival/Builder Game";
+      answerbox.innerHTML = "Your game is: Valheim (survival, builder)";
     }
     if (c2score == maxscore) { // If user chooses the second choice the most, this outcome will be displayed.
-      answerbox.innerHTML = "Evil game";
+      answerbox.innerHTML = "Your game is: Tiny Tina's Wonderlands or the borderlands series (silly, villans)";
     }
     if (c3score == maxscore) { // If user chooses the third choice the most, this outcome will be displayed.
-      answerbox.innerHTML = "Happy Game";
+      answerbox.innerHTML = "Your game is: Slimerancher (this game is just adorable)";
     }
     if (c4score == maxscore) { // If user chooses the fourth choice the most, this outcome will be displayed.
-      answerbox.innerHTML = "Sad Game";
+      answerbox.innerHTML = "Your game is: BioShock series or Spiritfarer (both wonderful and sad)";
     }
     if (c5score == maxscore) { // If user chooses the fourth choice the most, this outcome will be displayed.
-      answerbox.innerHTML = "Shooting";
+      answerbox.innerHTML = "Your game is: Doom Eternal (hell, shooter) or Halo Infinite (action, adventure)";
     }
     if (c6score == maxscore) { // If user chooses the fourth choice the most, this outcome will be displayed.
-      answerbox.innerHTML = "Action Adventure";
+      answerbox.innerHTML = "Your game is: Far Cry 6 (another shooter but you can have a bear) or It Takes Two";
     }
     if (c7score == maxscore) { // If user chooses the fourth choice the most, this outcome will be displayed.
-      answerbox.innerHTML = "Open World RPG";
+      answerbox.innerHTML = "Your game is: All of the Souls games (if you like difficulty) or Dragon's Dogma: Dark Arisen";
     }
     if (c8score == maxscore) { // If user chooses the fourth choice the most, this outcome will be displayed.
-      answerbox.innerHTML = "Indie";
+      answerbox.innerHTML = "Your game is: Castle Crashers, Battleblox theater, The DIshwasher, and Scott Pilgrim (some of the best ever if you have not played them)";
     }
     if (c9score == maxscore) { // If user chooses the fourth choice the most, this outcome will be displayed.
       answerbox.innerHTML = "Platformer/rougelike";
